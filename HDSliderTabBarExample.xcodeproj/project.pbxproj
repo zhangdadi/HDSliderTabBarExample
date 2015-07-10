@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0906AE271B4A75EF00197020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0906AE261B4A75EF00197020 /* main.m */; };
-		0906AE2A1B4A75EF00197020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0906AE291B4A75EF00197020 /* AppDelegate.m */; };
-		0906AE2D1B4A75EF00197020 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0906AE2C1B4A75EF00197020 /* ViewController.m */; };
-		0906AE301B4A75EF00197020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0906AE2E1B4A75EF00197020 /* Main.storyboard */; };
-		0906AE321B4A75EF00197020 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0906AE311B4A75EF00197020 /* Images.xcassets */; };
-		0906AE351B4A75EF00197020 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0906AE331B4A75EF00197020 /* LaunchScreen.xib */; };
-		0906AE411B4A75EF00197020 /* HDSliderTabBarExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0906AE401B4A75EF00197020 /* HDSliderTabBarExampleTests.m */; };
-		0906AE4D1B4A763000197020 /* HDSliderTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0906AE4C1B4A763000197020 /* HDSliderTabBar.m */; };
+		09A77C521B4F9EA700831C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A77C511B4F9EA700831C8B /* main.m */; };
+		09A77C551B4F9EA700831C8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A77C541B4F9EA700831C8B /* AppDelegate.m */; };
+		09A77C581B4F9EA700831C8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A77C571B4F9EA700831C8B /* ViewController.m */; };
+		09A77C5B1B4F9EA700831C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A77C591B4F9EA700831C8B /* Main.storyboard */; };
+		09A77C5D1B4F9EA700831C8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A77C5C1B4F9EA700831C8B /* Images.xcassets */; };
+		09A77C601B4F9EA700831C8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09A77C5E1B4F9EA700831C8B /* LaunchScreen.xib */; };
+		09A77C6C1B4F9EA700831C8B /* HDSliderTabBarExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A77C6B1B4F9EA700831C8B /* HDSliderTabBarExampleTests.m */; };
+		09A77C781B4F9EC800831C8B /* HDSliderTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A77C771B4F9EC800831C8B /* HDSliderTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0906AE3B1B4A75EF00197020 /* PBXContainerItemProxy */ = {
+		09A77C661B4F9EA700831C8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0906AE191B4A75EF00197020 /* Project object */;
+			containerPortal = 09A77C441B4F9EA700831C8B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0906AE201B4A75EF00197020;
+			remoteGlobalIDString = 09A77C4B1B4F9EA700831C8B;
 			remoteInfo = HDSliderTabBarExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0906AE211B4A75EF00197020 /* HDSliderTabBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDSliderTabBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0906AE251B4A75EF00197020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0906AE261B4A75EF00197020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0906AE281B4A75EF00197020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0906AE291B4A75EF00197020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0906AE2B1B4A75EF00197020 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0906AE2C1B4A75EF00197020 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0906AE2F1B4A75EF00197020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0906AE311B4A75EF00197020 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0906AE341B4A75EF00197020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0906AE3A1B4A75EF00197020 /* HDSliderTabBarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDSliderTabBarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0906AE3F1B4A75EF00197020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0906AE401B4A75EF00197020 /* HDSliderTabBarExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDSliderTabBarExampleTests.m; sourceTree = "<group>"; };
-		0906AE4B1B4A763000197020 /* HDSliderTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDSliderTabBar.h; sourceTree = "<group>"; };
-		0906AE4C1B4A763000197020 /* HDSliderTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDSliderTabBar.m; sourceTree = "<group>"; };
+		09A77C4C1B4F9EA700831C8B /* HDSliderTabBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDSliderTabBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A77C501B4F9EA700831C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A77C511B4F9EA700831C8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09A77C531B4F9EA700831C8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09A77C541B4F9EA700831C8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09A77C561B4F9EA700831C8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09A77C571B4F9EA700831C8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09A77C5A1B4F9EA700831C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09A77C5C1B4F9EA700831C8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		09A77C5F1B4F9EA700831C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		09A77C651B4F9EA700831C8B /* HDSliderTabBarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDSliderTabBarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A77C6A1B4F9EA700831C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A77C6B1B4F9EA700831C8B /* HDSliderTabBarExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDSliderTabBarExampleTests.m; sourceTree = "<group>"; };
+		09A77C761B4F9EC800831C8B /* HDSliderTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDSliderTabBar.h; sourceTree = "<group>"; };
+		09A77C771B4F9EC800831C8B /* HDSliderTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDSliderTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0906AE1E1B4A75EF00197020 /* Frameworks */ = {
+		09A77C491B4F9EA700831C8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0906AE371B4A75EF00197020 /* Frameworks */ = {
+		09A77C621B4F9EA700831C8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,71 +63,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0906AE181B4A75EF00197020 = {
+		09A77C431B4F9EA700831C8B = {
 			isa = PBXGroup;
 			children = (
-				0906AE4A1B4A75FE00197020 /* HDSliderTabBar */,
-				0906AE231B4A75EF00197020 /* HDSliderTabBarExample */,
-				0906AE3D1B4A75EF00197020 /* HDSliderTabBarExampleTests */,
-				0906AE221B4A75EF00197020 /* Products */,
+				09A77C751B4F9EC800831C8B /* HDSliderTabBar */,
+				09A77C4E1B4F9EA700831C8B /* HDSliderTabBarExample */,
+				09A77C681B4F9EA700831C8B /* HDSliderTabBarExampleTests */,
+				09A77C4D1B4F9EA700831C8B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0906AE221B4A75EF00197020 /* Products */ = {
+		09A77C4D1B4F9EA700831C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0906AE211B4A75EF00197020 /* HDSliderTabBarExample.app */,
-				0906AE3A1B4A75EF00197020 /* HDSliderTabBarExampleTests.xctest */,
+				09A77C4C1B4F9EA700831C8B /* HDSliderTabBarExample.app */,
+				09A77C651B4F9EA700831C8B /* HDSliderTabBarExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0906AE231B4A75EF00197020 /* HDSliderTabBarExample */ = {
+		09A77C4E1B4F9EA700831C8B /* HDSliderTabBarExample */ = {
 			isa = PBXGroup;
 			children = (
-				0906AE281B4A75EF00197020 /* AppDelegate.h */,
-				0906AE291B4A75EF00197020 /* AppDelegate.m */,
-				0906AE2B1B4A75EF00197020 /* ViewController.h */,
-				0906AE2C1B4A75EF00197020 /* ViewController.m */,
-				0906AE2E1B4A75EF00197020 /* Main.storyboard */,
-				0906AE311B4A75EF00197020 /* Images.xcassets */,
-				0906AE331B4A75EF00197020 /* LaunchScreen.xib */,
-				0906AE241B4A75EF00197020 /* Supporting Files */,
+				09A77C531B4F9EA700831C8B /* AppDelegate.h */,
+				09A77C541B4F9EA700831C8B /* AppDelegate.m */,
+				09A77C561B4F9EA700831C8B /* ViewController.h */,
+				09A77C571B4F9EA700831C8B /* ViewController.m */,
+				09A77C591B4F9EA700831C8B /* Main.storyboard */,
+				09A77C5C1B4F9EA700831C8B /* Images.xcassets */,
+				09A77C5E1B4F9EA700831C8B /* LaunchScreen.xib */,
+				09A77C4F1B4F9EA700831C8B /* Supporting Files */,
 			);
 			path = HDSliderTabBarExample;
 			sourceTree = "<group>";
 		};
-		0906AE241B4A75EF00197020 /* Supporting Files */ = {
+		09A77C4F1B4F9EA700831C8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0906AE251B4A75EF00197020 /* Info.plist */,
-				0906AE261B4A75EF00197020 /* main.m */,
+				09A77C501B4F9EA700831C8B /* Info.plist */,
+				09A77C511B4F9EA700831C8B /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0906AE3D1B4A75EF00197020 /* HDSliderTabBarExampleTests */ = {
+		09A77C681B4F9EA700831C8B /* HDSliderTabBarExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				0906AE401B4A75EF00197020 /* HDSliderTabBarExampleTests.m */,
-				0906AE3E1B4A75EF00197020 /* Supporting Files */,
+				09A77C6B1B4F9EA700831C8B /* HDSliderTabBarExampleTests.m */,
+				09A77C691B4F9EA700831C8B /* Supporting Files */,
 			);
 			path = HDSliderTabBarExampleTests;
 			sourceTree = "<group>";
 		};
-		0906AE3E1B4A75EF00197020 /* Supporting Files */ = {
+		09A77C691B4F9EA700831C8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0906AE3F1B4A75EF00197020 /* Info.plist */,
+				09A77C6A1B4F9EA700831C8B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0906AE4A1B4A75FE00197020 /* HDSliderTabBar */ = {
+		09A77C751B4F9EC800831C8B /* HDSliderTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				0906AE4B1B4A763000197020 /* HDSliderTabBar.h */,
-				0906AE4C1B4A763000197020 /* HDSliderTabBar.m */,
+				09A77C761B4F9EC800831C8B /* HDSliderTabBar.h */,
+				09A77C771B4F9EC800831C8B /* HDSliderTabBar.m */,
 			);
 			path = HDSliderTabBar;
 			sourceTree = "<group>";
@@ -135,13 +135,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0906AE201B4A75EF00197020 /* HDSliderTabBarExample */ = {
+		09A77C4B1B4F9EA700831C8B /* HDSliderTabBarExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0906AE441B4A75EF00197020 /* Build configuration list for PBXNativeTarget "HDSliderTabBarExample" */;
+			buildConfigurationList = 09A77C6F1B4F9EA700831C8B /* Build configuration list for PBXNativeTarget "HDSliderTabBarExample" */;
 			buildPhases = (
-				0906AE1D1B4A75EF00197020 /* Sources */,
-				0906AE1E1B4A75EF00197020 /* Frameworks */,
-				0906AE1F1B4A75EF00197020 /* Resources */,
+				09A77C481B4F9EA700831C8B /* Sources */,
+				09A77C491B4F9EA700831C8B /* Frameworks */,
+				09A77C4A1B4F9EA700831C8B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,46 +149,46 @@
 			);
 			name = HDSliderTabBarExample;
 			productName = HDSliderTabBarExample;
-			productReference = 0906AE211B4A75EF00197020 /* HDSliderTabBarExample.app */;
+			productReference = 09A77C4C1B4F9EA700831C8B /* HDSliderTabBarExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0906AE391B4A75EF00197020 /* HDSliderTabBarExampleTests */ = {
+		09A77C641B4F9EA700831C8B /* HDSliderTabBarExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0906AE471B4A75EF00197020 /* Build configuration list for PBXNativeTarget "HDSliderTabBarExampleTests" */;
+			buildConfigurationList = 09A77C721B4F9EA700831C8B /* Build configuration list for PBXNativeTarget "HDSliderTabBarExampleTests" */;
 			buildPhases = (
-				0906AE361B4A75EF00197020 /* Sources */,
-				0906AE371B4A75EF00197020 /* Frameworks */,
-				0906AE381B4A75EF00197020 /* Resources */,
+				09A77C611B4F9EA700831C8B /* Sources */,
+				09A77C621B4F9EA700831C8B /* Frameworks */,
+				09A77C631B4F9EA700831C8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0906AE3C1B4A75EF00197020 /* PBXTargetDependency */,
+				09A77C671B4F9EA700831C8B /* PBXTargetDependency */,
 			);
 			name = HDSliderTabBarExampleTests;
 			productName = HDSliderTabBarExampleTests;
-			productReference = 0906AE3A1B4A75EF00197020 /* HDSliderTabBarExampleTests.xctest */;
+			productReference = 09A77C651B4F9EA700831C8B /* HDSliderTabBarExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0906AE191B4A75EF00197020 /* Project object */ = {
+		09A77C441B4F9EA700831C8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "张达棣";
 				TargetAttributes = {
-					0906AE201B4A75EF00197020 = {
+					09A77C4B1B4F9EA700831C8B = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					0906AE391B4A75EF00197020 = {
+					09A77C641B4F9EA700831C8B = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 0906AE201B4A75EF00197020;
+						TestTargetID = 09A77C4B1B4F9EA700831C8B;
 					};
 				};
 			};
-			buildConfigurationList = 0906AE1C1B4A75EF00197020 /* Build configuration list for PBXProject "HDSliderTabBarExample" */;
+			buildConfigurationList = 09A77C471B4F9EA700831C8B /* Build configuration list for PBXProject "HDSliderTabBarExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -196,29 +196,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 0906AE181B4A75EF00197020;
-			productRefGroup = 0906AE221B4A75EF00197020 /* Products */;
+			mainGroup = 09A77C431B4F9EA700831C8B;
+			productRefGroup = 09A77C4D1B4F9EA700831C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0906AE201B4A75EF00197020 /* HDSliderTabBarExample */,
-				0906AE391B4A75EF00197020 /* HDSliderTabBarExampleTests */,
+				09A77C4B1B4F9EA700831C8B /* HDSliderTabBarExample */,
+				09A77C641B4F9EA700831C8B /* HDSliderTabBarExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0906AE1F1B4A75EF00197020 /* Resources */ = {
+		09A77C4A1B4F9EA700831C8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0906AE301B4A75EF00197020 /* Main.storyboard in Resources */,
-				0906AE351B4A75EF00197020 /* LaunchScreen.xib in Resources */,
-				0906AE321B4A75EF00197020 /* Images.xcassets in Resources */,
+				09A77C5B1B4F9EA700831C8B /* Main.storyboard in Resources */,
+				09A77C601B4F9EA700831C8B /* LaunchScreen.xib in Resources */,
+				09A77C5D1B4F9EA700831C8B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0906AE381B4A75EF00197020 /* Resources */ = {
+		09A77C631B4F9EA700831C8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,48 +228,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0906AE1D1B4A75EF00197020 /* Sources */ = {
+		09A77C481B4F9EA700831C8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0906AE2D1B4A75EF00197020 /* ViewController.m in Sources */,
-				0906AE2A1B4A75EF00197020 /* AppDelegate.m in Sources */,
-				0906AE4D1B4A763000197020 /* HDSliderTabBar.m in Sources */,
-				0906AE271B4A75EF00197020 /* main.m in Sources */,
+				09A77C581B4F9EA700831C8B /* ViewController.m in Sources */,
+				09A77C551B4F9EA700831C8B /* AppDelegate.m in Sources */,
+				09A77C781B4F9EC800831C8B /* HDSliderTabBar.m in Sources */,
+				09A77C521B4F9EA700831C8B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0906AE361B4A75EF00197020 /* Sources */ = {
+		09A77C611B4F9EA700831C8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0906AE411B4A75EF00197020 /* HDSliderTabBarExampleTests.m in Sources */,
+				09A77C6C1B4F9EA700831C8B /* HDSliderTabBarExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0906AE3C1B4A75EF00197020 /* PBXTargetDependency */ = {
+		09A77C671B4F9EA700831C8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0906AE201B4A75EF00197020 /* HDSliderTabBarExample */;
-			targetProxy = 0906AE3B1B4A75EF00197020 /* PBXContainerItemProxy */;
+			target = 09A77C4B1B4F9EA700831C8B /* HDSliderTabBarExample */;
+			targetProxy = 09A77C661B4F9EA700831C8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0906AE2E1B4A75EF00197020 /* Main.storyboard */ = {
+		09A77C591B4F9EA700831C8B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0906AE2F1B4A75EF00197020 /* Base */,
+				09A77C5A1B4F9EA700831C8B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0906AE331B4A75EF00197020 /* LaunchScreen.xib */ = {
+		09A77C5E1B4F9EA700831C8B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0906AE341B4A75EF00197020 /* Base */,
+				09A77C5F1B4F9EA700831C8B /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0906AE421B4A75EF00197020 /* Debug */ = {
+		09A77C6D1B4F9EA700831C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		0906AE431B4A75EF00197020 /* Release */ = {
+		09A77C6E1B4F9EA700831C8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,27 +359,29 @@
 			};
 			name = Release;
 		};
-		0906AE451B4A75EF00197020 /* Debug */ = {
+		09A77C701B4F9EA700831C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HDSliderTabBarExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		0906AE461B4A75EF00197020 /* Release */ = {
+		09A77C711B4F9EA700831C8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HDSliderTabBarExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		0906AE481B4A75EF00197020 /* Debug */ = {
+		09A77C731B4F9EA700831C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,7 +400,7 @@
 			};
 			name = Debug;
 		};
-		0906AE491B4A75EF00197020 /* Release */ = {
+		09A77C741B4F9EA700831C8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -416,32 +418,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0906AE1C1B4A75EF00197020 /* Build configuration list for PBXProject "HDSliderTabBarExample" */ = {
+		09A77C471B4F9EA700831C8B /* Build configuration list for PBXProject "HDSliderTabBarExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0906AE421B4A75EF00197020 /* Debug */,
-				0906AE431B4A75EF00197020 /* Release */,
+				09A77C6D1B4F9EA700831C8B /* Debug */,
+				09A77C6E1B4F9EA700831C8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0906AE441B4A75EF00197020 /* Build configuration list for PBXNativeTarget "HDSliderTabBarExample" */ = {
+		09A77C6F1B4F9EA700831C8B /* Build configuration list for PBXNativeTarget "HDSliderTabBarExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0906AE451B4A75EF00197020 /* Debug */,
-				0906AE461B4A75EF00197020 /* Release */,
+				09A77C701B4F9EA700831C8B /* Debug */,
+				09A77C711B4F9EA700831C8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		0906AE471B4A75EF00197020 /* Build configuration list for PBXNativeTarget "HDSliderTabBarExampleTests" */ = {
+		09A77C721B4F9EA700831C8B /* Build configuration list for PBXNativeTarget "HDSliderTabBarExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0906AE481B4A75EF00197020 /* Debug */,
-				0906AE491B4A75EF00197020 /* Release */,
+				09A77C731B4F9EA700831C8B /* Debug */,
+				09A77C741B4F9EA700831C8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0906AE191B4A75EF00197020 /* Project object */;
+	rootObject = 09A77C441B4F9EA700831C8B /* Project object */;
 }

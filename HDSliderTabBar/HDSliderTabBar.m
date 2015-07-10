@@ -9,10 +9,10 @@
 #import "HDSliderTabBar.h"
 
 @interface HDSliderTabBar ()
-@property (nonatomic, assign, readonly) CGFloat screenWidth;
-@property (nonatomic, strong) UIScrollView *scrollView;
-@property (nonatomic, strong) NSArray *itemViewArray;
+@property (nonatomic, strong) UIScrollView *scrollView; //头顶的滚动视图
+@property (nonatomic, strong) NSArray *itemViewArray; //按钮view的数组
 @property (nonatomic, assign) NSInteger index; //当前选择的index
+@property (nonatomic, assign) NSInteger lastIndex; //上一次选择的index
 
 @end
 
@@ -88,22 +88,120 @@
     _index = index;
     
     CGFloat offsetX = selectButton.frame.origin.x - self.screenWidth / 2;
-    offsetX = offsetX > 0 ? offsetX : 0;
+    offsetX = offsetX > 0 ? (offsetX + _itemMainWith / 2) : 0;
     offsetX = offsetX > _scrollView.contentSize.width - _scrollView.frame.size.width ? _scrollView.contentSize.width - _scrollView.frame.size.width : offsetX;
-    [_scrollView setContentOffset:CGPointMake(offsetX, 0) animated:YES];
+    
+    {
+        if (index > _lastIndex) { //向右边移动
+            
+            CGRect frame = _leftView.frame;
+            frame.origin.x = _leftView.frame.size.width;
+            _leftView.frame = frame;
+            
+            [UIView animateWithDuration:.3 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+                CGRect frame = _showView.frame;
+                frame.origin.x = -_showView.frame.size.width;
+                _showView.frame = frame;
+                
+                frame = _rightView.frame;
+                frame.origin.x = 0;
+                _rightView.frame = frame;
+            } completion:^(BOOL finished) {
+                [_scrollView setContentOffset:CGPointMake(offsetX, 0) animated:YES];
+            }];
+            
+            //设置正在显示的view
+            UITableView *temp = _showView;
+            _showView = _rightView;
+            _rightView = _leftView;
+            _leftView = temp;
+            
+            if (index - _lastIndex > 1) {
+                [self finishWithIndex:index];
+            } else {
+                if (index + 1 >= 0 && index + 1 < _itemArray.count) {
+                    _selectBlock(index + 1, _rightView);
+                }
+            }
+            
+        } else if (index < _lastIndex){ //向左边移动
+            CGRect frame = _rightView.frame;
+            frame.origin.x = -_rightView.frame.size.width;
+            _rightView.frame = frame;
+            
+            [UIView animateWithDuration:.3 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+                CGRect frame = _showView.frame;
+                frame.origin.x = _showView.frame.size.width;
+                _showView.frame = frame;
+                
+                frame = _leftView.frame;
+                frame.origin.x = 0;
+                _leftView.frame = frame;
+            } completion:^(BOOL finished) {
+                [_scrollView setContentOffset:CGPointMake(offsetX, 0) animated:YES];
+            }];
+
+            //设置正在显示的view
+            UITableView *temp = _showView;
+            _showView = _leftView;
+            _leftView = _rightView;
+            _rightView = temp;
+            
+            if (_lastIndex - index > 1) {
+                [self finishWithIndex:index];
+            } else {
+                if (index - 1 >= 0 && index - 1 < _itemArray.count) {
+                    _selectBlock(index - 1, _leftView);
+                }
+            }
+        }
+    }
+    
+    _lastIndex = index;
 }
 
 - (void)buttonClick:(UIButton *)button {
     self.index = button.tag;
 }
 
-//- (void)setLeftView:(UIView *)leftView {
-//    _leftView = leftView;
-//    CGRect frame = leftView.frame;
-//    frame.origin.y += 44;
-//    frame.size.height -= 44;
-//    leftView.frame = frame;
-//}
+- (void)setLeftView:(UITableView *)leftView {
+    _leftView = leftView;
+    
+    CGRect frame = leftView.frame;
+    frame.origin.x = -leftView.frame.size.width;
+    leftView.frame = frame;
+}
+
+- (void)setShowView:(UITableView *)showView {
+    _showView = showView;
+}
+
+- (void)setRightView:(UITableView *)rightView {
+    _rightView = rightView;
+    CGRect frame = rightView.frame;
+    frame.origin.x = rightView.frame.size.width;
+    rightView.frame = frame;
+}
+
+- (void)setSelectBlock:(HDSliderTabBarSelectBlock)selectBlock {
+    _selectBlock = [selectBlock copy];
+    [self finishWithIndex:0];
+}
+
+- (void)finishWithIndex:(NSInteger)index {
+    //回调
+    if (_selectBlock) {
+        if (index >= 0 && index < _itemArray.count) {
+            _selectBlock(index, _leftView);
+        }
+        if (index - 1 >= 0 && index - 1 < _itemArray.count) {
+            _selectBlock(index - 1, _leftView);
+        }
+        if (index + 1 >= 0 && index + 1 < _itemArray.count) {
+            _selectBlock(index + 1, _rightView);
+        }
+    }
+}
 
 
 @end
