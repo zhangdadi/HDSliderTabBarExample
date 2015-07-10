@@ -47,12 +47,13 @@ NSString *KCellIdef = @"zcell";
     _sliderTabBar.itemArray = @[@"热点", @"科技", @"推荐", @"南宁", @"视频", @"推荐", @"社会", @"娱乐", @"国际"];
     [self.view addSubview:_sliderTabBar];
     
-    _sliderTabBar.showView = _tableView;
-    _sliderTabBar.leftView = table1;
-    _sliderTabBar.rightView = table2;
+    _sliderTabBar.showView = _tableView; //原先显示的tableView
+    _sliderTabBar.leftView = table1; //虚化出的假tableView
+    _sliderTabBar.rightView = table2; //虚化出的假tableView
     
     __weak typeof(self) weakSelf = self;
     _sliderTabBar.selectBlock = ^(NSInteger index, UITableView *tableView) {
+        //点击后的回调
         NSLog(@"刷新==%@", weakSelf.sliderTabBar.itemArray[index]);
         [tableView reloadData];
     };
